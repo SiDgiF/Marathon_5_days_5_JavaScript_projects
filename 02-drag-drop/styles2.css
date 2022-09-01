@@ -6,7 +6,7 @@
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #e5e5e5;
+  /* background-color: #e5e5e5; */
   display: flex;
   padding-top: 5rem;
   justify-content: center;
@@ -65,8 +65,7 @@ body {
 }
 
 .hold {
-  border: 2px dashed #b5b3b30c;
-  background: #68e0cf;
+  border: 1px solid #b5b3b3;
 }
 
 .hide {
@@ -74,6 +73,5 @@ body {
 }
 
 .hovered {
-  border-top: 1px dashed red;
-  transition: all 3s;
+  border-top: 1px solid #dddada;
 }
