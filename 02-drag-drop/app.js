@@ -42,3 +42,6 @@ function dragdrop(event) {
    event.target.append(item)
 }
 
+// добавить элемент
+
+const plus = document.querySelector('.col-header start')

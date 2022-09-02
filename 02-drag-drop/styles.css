@@ -44,6 +44,7 @@ body {
 }
 
 .item:active {
+  box-shadow: none;
   cursor: grabbing;
 }
 
