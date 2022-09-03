@@ -6,3 +6,5 @@ https://result.school/products/marathon-js
 1 проект: Карточки
 
 2 проект: Перемещение элементов
+
+3 проект: Слайдер
