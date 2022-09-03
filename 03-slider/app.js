@@ -18,6 +18,32 @@ downBtn.addEventListener('click', () => {
    chageSlide('down')
 })
 
+// ******переключение слайда кнопками*******
+
+// Проверка слушателя - кнопки
+// document.addEventListener('keydown', event =>
+//    console.log(event.key))
+
+document.addEventListener('keydown', event => {
+   if (event.key === 'ArrowUp') {
+      chageSlide('up')
+   } else if (event.key === 'ArrowDown') {
+      chageSlide('down')
+   }
+})
+// *****************************************
+
+
+// {
+//    if (event.key === 'ArrowUp') {
+//       chageSlide('up')
+//    } else if (event.key === 'ArrowDown') {
+//       chageSlide('down')
+//    }
+// })
+
+
+
 function chageSlide(direction) {
    if (direction === 'up') {
       activeSlideIndex++
