@@ -4,7 +4,7 @@ const SQUARES_NUMBER = 400
 
 for (let i = 0; i < SQUARES_NUMBER; i++) {
 
-   const square = document.createElement('div')// с каждой итерецией создаем элемент
+   const square = document.createElement('div')// с каждой иттерацией создаем элемент
 
    square.classList.add('square')// добавим для него класс
 
@@ -34,9 +34,15 @@ function removeColor(element) {
 }
 
 function getRandomColor() {
-   const index = Math.floor(Math.random() * colors.length)
-   // Math.random - рандомная строчка
+   // 1й способ******
+   // const index = Math.floor(Math.random() * colors.length)
+   // return colors[index]
+   // 2й способ******
+
+   return colors[Math.floor(Math.random() * colors.length)]
+
+
+}
+  // Math.random - рандомная строчка
    // lenght - длина массива
    // Math.floor - округление в большую сторону
-   return colors[index]
-}
