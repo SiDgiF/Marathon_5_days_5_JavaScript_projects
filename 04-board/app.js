@@ -15,8 +15,6 @@ for (let i = 0; i < SQUARES_NUMBER; i++) {
    square.addEventListener('mouseleave', () =>
       removeColor(square))
 
-
-
    board.append(square)// добавим элемент на доску
 }
 
