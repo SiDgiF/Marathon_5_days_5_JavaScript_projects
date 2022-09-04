@@ -10,3 +10,5 @@ https://result.school/products/marathon-js
 3 проект: Слайдер
 
 4 проект: Ховер-доска
+
+5 проект: Aim
